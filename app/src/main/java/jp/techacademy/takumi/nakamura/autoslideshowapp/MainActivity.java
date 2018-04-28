@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
                         }
 
                     }, 2000, 2000);
-
+                    mPlaybackButton.setText("停止");
                     mNextButton.setEnabled(false);
                     mBackButton.setEnabled(false);
 
@@ -165,6 +165,7 @@ public class MainActivity extends AppCompatActivity {
                         mTimer = null;
 
                     }
+                    mPlaybackButton.setText("再生");
                     mNextButton.setEnabled(true);
                     mBackButton.setEnabled(true);
 
