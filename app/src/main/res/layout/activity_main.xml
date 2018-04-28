@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/next_button"
-        android:text="再生/停止" />
+        android:text="再生" />
 
 
 </RelativeLayout>
